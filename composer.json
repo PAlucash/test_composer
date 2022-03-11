@@ -1,0 +1,22 @@
+{
+    "name": "lucas/test_composer",
+    "description": "test composer desc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Huang",
+            "email": "lucas.huang@planetart.cn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+            "files":[
+                "src/lib/helper.php"
+            ],
+            "psr-4":{
+                "yellow\\composer\\":"src"
+            }
+    }
+}
