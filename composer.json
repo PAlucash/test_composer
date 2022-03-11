@@ -1,5 +1,5 @@
 {
-    "name": "lucas/test_composer",
+    "name": "palucas/test_composer",
     "description": "test composer desc",
     "type": "library",
     "license": "MIT",
